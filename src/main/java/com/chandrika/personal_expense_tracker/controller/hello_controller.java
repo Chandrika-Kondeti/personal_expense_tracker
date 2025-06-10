@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class pet_controller {
+public class hello_controller {
 
     @GetMapping("/hello")
     public String sayHello(){
